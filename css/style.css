@@ -1,0 +1,88 @@
+/* Resetting some default styles and setting a background color for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the main container */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Styling for the form within the container */
+.form {
+    padding: 20px;
+}
+
+/* Styling for the heading within the form */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for labels within the form */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #666;
+}
+
+/* Styling for input fields within the form */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Fix width issue */
+}
+
+/* Styling for buttons within the form */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the switch-form section */
+.switch-form {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+/* Styling for links within the switch-form section */
+.switch-form a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.switch-form a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for error messages */
+.error-message {
+    color: red;
+    font-size: .7em;
+    text-align: center;
+    margin-top: 20px;
+}

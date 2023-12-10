@@ -1,0 +1,66 @@
+/* Resetting some default styles and setting a background color for the body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the main dashboard container */
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Styling for the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for sidebar headings */
+.sidebar h2 {
+    color: #fff;
+}
+
+/* Styling for sidebar links */
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+/* Hover and active state styling for sidebar links */
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #555;
+}
+
+/* Styling for the main content area */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Styling for headers within the main content area */
+.main-content header {
+    margin-bottom: 20px;
+}
+
+/* Styling for cards within the main content area */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for heading within the cards */
+.card h2 {
+    color: #333;
+}
